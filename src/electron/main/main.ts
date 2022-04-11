@@ -15,7 +15,7 @@ function createWindow() {
       NodeIterator: false,
       worldSafeExecuteJavascript : true,
       contextIsolation: true,
-      preload : path.resolve('js/react/preload.cjs')
+      preload : path.resolve('js/electron/preload/preload.cjs')
     }
   })
 
