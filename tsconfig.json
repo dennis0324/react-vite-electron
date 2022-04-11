@@ -14,6 +14,7 @@
     // "isolatedModules": true,
     // "noEmit": true,
     // "jsx": "react-jsx",
+    "downlevelIteration": true,
     "target": "ESNext",
     "module": "ESNext",
     "allowJs": true,
@@ -24,6 +25,11 @@
     "resolveJsonModule": true,
     "strict": true,
     "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@types": ["./types.ts"],
+      "@component" : ["./component/*"]
+    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
