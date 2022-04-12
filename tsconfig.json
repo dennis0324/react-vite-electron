@@ -25,10 +25,12 @@
     "resolveJsonModule": true,
     "strict": true,
     "jsx": "react-jsx",
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "paths": {
-      "@types": ["./types.ts"],
-      "@component" : ["./component/*"]
+      "@types": ["src/types.ts"],
+      "@component/*" : ["./src/react/component/*"],
+      "@resource/*" : ["./src/react/resource/*"]
+
     }
   },
   "include": ["src"],

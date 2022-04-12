@@ -3,10 +3,10 @@
     "composite": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src"]
-    }
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@/*": ["src"]
+    // }
   },
   "include": ["./src/react/vite.config.ts"]
 }
