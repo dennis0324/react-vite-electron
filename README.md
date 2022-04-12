@@ -9,7 +9,7 @@ this is template for vite-electron-ts
 you can use this templete for developing react-electron-vite with typescript
 
 
-```ps
+```sh
 # use below command to clone git for your project
 git clone https://github.com/dennis0324/react-vite-electron.git
 
@@ -25,7 +25,7 @@ npm run dev
 
 you can use `@`Keyword to resolve relative path issue like `../../../../` 
 
-```ps
+```sh
 # use to access with types.ts to manage datatype in react-vite-electron
 @types
 
