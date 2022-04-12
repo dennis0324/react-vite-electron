@@ -9,8 +9,15 @@ this is template for vite-electron-ts
 you can use this templete for developing react-electron-vite with typescript
 
 
-```
+```ps
+# use below command to clone git for your project
+git clone https://github.com/dennis0324/react-vite-electron.git
 
+# use below command to cloned project
+cd react-vite-electron
+
+# use below command to run development mode
+npm run dev
 
 
 ```
