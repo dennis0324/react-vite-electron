@@ -14,3 +14,17 @@ you can use this templete for developing react-electron-vite with typescript
 
 
 ```
+
+
+you can use `@`Keyword to resolve relative path issue like `../../../../` 
+
+```ps
+# use to access with types.ts to manage datatype in react-vite-electron
+@types
+
+# use to access react component file
+@compoment/
+
+# use to access react resource file
+@resource/
+```
